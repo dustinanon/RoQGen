@@ -1,0 +1,2 @@
+wget -k -e robots=off -U "Mozilla/5.0 (compatible; Konqueror/3.2; Linux)" -A html,htm,php,asp,aspx,shtm,shtml,pl,jsp -r -l 5 $1
+./roqgen.jar $1
